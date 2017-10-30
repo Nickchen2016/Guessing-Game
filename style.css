@@ -1,0 +1,44 @@
+/*<!-- Bootstrap and CSS here-->*/
+html {
+    box-sizing: 'border-box'
+  }
+  .center {
+    text-align: center;
+  }
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  img {
+      display: inline;
+      width: 200px;
+      height: 100px;
+  }
+  #footer {
+      width: 100%;
+      border-top: solid 4px rgb(185, 185, 185);
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+  }
+ .guess {
+      display: inline;
+      border: solid 3px rgb(231, 231, 231);
+      border-radius: 10%;
+      padding: 3px 10px;
+      margin: 4px;
+      font-size: 18px;
+      color:rgb(163, 163, 163);
+ }
+ #guesses {
+    margin-top: 25px;
+    margin-bottom: 20px;
+ }
+ #main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+.answer {
+    color:rgb(163, 163, 163);
+    border-radius: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <!--css link!-->
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <!--bootstrap link!-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type = 'text/javascript' src = 'jquery-3.2.1.min.js'></script>
+    
+    <script type = 'text/javascript' src = 'GuessingGame.js'></script>
+
+  </head>
+  <body>
+
+      <div id='app' class='center'>
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <div>
+            <h1 class='center'>Guess The Number</h1>
+          </div>
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+              <button id='reset' class='btn btn-warning' id='reset'>Reset</button>
+              <Button id='hint' class='btn btn-info' id='hint'>Hint</Button>
+          </div>
+        </div>
+      </div>
+
+        <div id='main' class='center'>
+          <div id='input-parent' class='center'>
+            <!-- Player's guess input, and submit button -->
+            <input id='player-input' class='center' placeholder="1~100" maxlength='3' autofocus=autofocus></input>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+          <div>
+              <ul>
+                  <li class='answer' id='CGValue'></li> <!-- checkGuess value -->
+                  <li class='answer' id='sub'></li>
+                  
+              </ul>
+          </div>
+          <div>
+            <button class='btn btn-success' id='submit'>Submit</button>
+          </div>
+          
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-xs-4'>
+            <img class='img-responsive' src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-xs-4'>
+            <h4>Project by Nick Chen</h4>
+          </div>
+
+          <div class='col-xs-4'>
+            <img class='img-responsive' src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+  </body>
+</html>
